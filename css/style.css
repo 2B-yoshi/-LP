@@ -28,25 +28,25 @@ table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
 iframe {width: 100%;}
 li {margin: 0px;padding: 0px;font-size: 130%;font-weight: normal;}
 
-body.party {
+body#party {
 	background-image: url("../image/quimon_party2.0.png");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 }
-body.roadmap {
+body#roadmap {
 	background-image: url("../image/roadmap4.0.png");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 }
-body.project {
+body#project {
 	background-image: url("../image/product4.0.png");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 }
-body.lore {
+body#lore {
 	background-image: url("../image/lore4.0.png");
 	background-size: cover;
 	background-attachment: fixed;
@@ -86,7 +86,7 @@ header {
 	border: none;
 }
 /*ロゴ画像*/
-header #logo {
+header #homelogo {
 	text-align: center;
 	float: none;	/*左に回り込み*/
 	margin-left: 100px;	/*左側に空けるスペース*/
@@ -96,7 +96,7 @@ header #logo {
 	width: 100% !important;
 	height: 100%
 }
-header #headerlogo {
+header .headerlogo {
 	width: 200px;	/*幅*/
 	float: left;	/*左に回り込み*/
 	margin-left: 10px;	/*左側に空けるスペース*/
@@ -138,21 +138,21 @@ header #news .newicon {text-shadow: none;}
 /*headerアイコン（facebookやtwitterなどのアイコンブロック）
 ---------------------------------------------------------------------------*/
 /*アイコンを囲むブロック全体の設定*/
-header .icon {
+header .linkicon {
 	float: right;		/*右側に回り込み*/
 	margin-right: 10px;	/*右側に空けるスペース*/
 }
 /*アイコン１個あたりの設定*/
-header .icon li {
+header .linkicon li {
 	display: inline;	/*横並びにさせる指定*/
 }
 /*アイコン画像の設定*/
-header .icon img {
+header .linkicon img {
 	width: 65px;		/*画像の幅*/
 	margin-left: 5px;	/*画像同士の余白*/
 }
 /*マウスオン時*/
-header .icon a:hover {
+header .linkicon a:hover {
 	opacity: 0.7;		/*色が70%だけついた状態にする*/
 }
 
@@ -451,7 +451,7 @@ header {
 	text-align: center;
 }
 /*ロゴ画像*/
-header #logo {
+header #homelogo {
 	float: none;
 	margin: 0 auto 10px;
 }
@@ -482,7 +482,7 @@ header #news {
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:480px){
 
-	header #logo {
+	header #homelogo {
 		max-width: 80%;
 		float: none;
 		margin: 15% auto;

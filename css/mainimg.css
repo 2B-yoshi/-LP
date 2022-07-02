@@ -51,42 +51,26 @@
 	color: #fff;			/*文字色*/
 }
 /*１枚目画像*/
-#img1 {
+#slime {
 	animation-delay: 0.4s;	/*2秒遅れてアニメーションをスタート*/
-	background: url(../image/landing_back_left1-4.png) no-repeat center center;			/*背景画像の読み込み（古いブラウザ用）*/
 	background: url(../image/landing_back_left1-4.png) no-repeat center center / cover;	/*背景画像の読み込み*/
 }
 /*２枚目画像*/
-#img2 {
+#fireball {
 	animation-delay: 0.6s;	/*2.2秒遅れてアニメーションをスタート*/
-	background: url(../image/landing_back_left2-4.png) no-repeat center center;			/*背景画像の読み込み（古いブラウザ用）*/
 	background: url(../image/landing_back_left2-4.png) no-repeat center center / cover;	/*背景画像の読み込み*/
 }
 /*３枚目画像*/
-#img3 {
+#bone {
 	animation-delay: 0.8s;	/*2.4秒遅れてアニメーションをスタート*/
-	background: url(../image/landing_back_left3-4.png) no-repeat center center;			/*背景画像の読み込み（古いブラウザ用）*/
 	background: url(../image/landing_back_left3-4.png) no-repeat center center / cover;	/*背景画像の読み込み*/
 }
 /*４枚目画像*/
-#img4 {
+#ghost {
 	animation-delay: 1s;	/*2.6秒遅れてアニメーションをスタート*/
-	background: url(../image/landing_back_left4-4.png) no-repeat center center;			/*背景画像の読み込み（古いブラウザ用）*/
 	background: url(../image/landing_back_left4-4.png) no-repeat center center / cover;	/*背景画像の読み込み*/
 }
-img.icon1{
-	height: 100px;
-	width: 100px;
-}
-img.icon2{
-	height: 100px;
-	width: 100px;
-}
-img.icon3{
-	height: 100px;
-	width: 100px;
-}
-img.icon4{
+img.character{
 	height: 100px;
 	width: 100px;
 }
@@ -106,26 +90,9 @@ img.icon4{
 		bottom: -20px;	/*メニューに対して、下からの配置場所指定。*/
 	}
 
-	img.icon1 {
+	img.character {
 		height: 90px;
 		width: 90px;
-	}
-	img.icon2 {
-		height: 90px;
-		width: 90px;
-	}
-	img.icon3 {
-		height: 90px;
-		width: 90px;
-	}
-	img.icon4 {
-		height: 90px;
-		width: 90px;
-	}
-	
-	header #logo {
-		max-width: 80%;
-		float: none;
 	}
 }
 
